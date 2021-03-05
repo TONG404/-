@@ -1,0 +1,72 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="swiperContainer">
+		<swiper indicator-dots="true" autoplay="true">
+			<swiper-item>
+				<image src="../../image/1.jpg" class="swiperImg"></image>
+			</swiper-item>
+			<swiper-item>
+				<image src="../../image/3.png" class="swiperImg"></image>
+			</swiper-item>
+			<swiper-item>
+				<image src="../../image/1.jpg" class="swiperImg"></image>
+			</swiper-item>
+			<swiper-item>
+				<image src="../../image/3.png" class="swiperImg"></image>
+			</swiper-item>
+		</swiper>
+	</view>
+  <view class="Container">
+    <view class="TitleContainer">
+      <view class="Title">最近活动</view>
+    </view>
+    <view class="activities">
+      <view class="activity">
+        <view class="activityTitle">活动1</view>
+        <view class="avtivityContent">nalalalalalla</view>
+      </view>
+      <view class="activity">
+        <view class="activityTitle">活动2</view>
+        <view class="avtivityContent">nalalalalalla</view>
+      </view>
+      <view class="activity">
+        <view class="activityTitle">活动3</view>
+        <view class="avtivityContent">nalalalalalla</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="Container">
+    <view class="TitleContainer">
+      <view class="Title">精选商城</view>
+    </view>
+    <view class="commodities">
+      <view class="commoditiesLine">
+        <view class="commodity">
+          <image src="../../image/c1.png" class="commodityImg"></image>
+          <view class="commodityName">商品1</view>
+          <view class="commodityPrice">￥100</view>
+        </view>
+        <view style="width:15px"></view>
+        <view class="commodity">
+          <image src="../../image/c2.png" class="commodityImg"></image>
+          <view class="commodityName">商品2</view>
+          <view class="commodityPrice">￥100</view>
+        </view>
+      </view>
+      <view class="commoditiesLine">
+        <view class="commodity">
+          <image src="../../image/c3.png" class="commodityImg"></image>
+          <view class="commodityName">商品3</view>
+          <view class="commodityPrice">￥100</view>
+        </view>
+        <view style="width:15px"></view>
+        <view class="commodity">
+          <image src="../../image/c4.png" class="commodityImg"></image>
+          <view class="commodityName">商品4</view>
+          <view class="commodityPrice">￥100</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

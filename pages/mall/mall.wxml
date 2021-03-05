@@ -1,0 +1,26 @@
+<!--pages/mall/mall.wxml-->
+<view class="top">
+	<view class="Sinput">
+		<input class="inputSearch" name="searchform" placeholder="  来找找有什么好玩的吧~" bindinput="search_key"></input>
+	</view>
+	<view class="SBtn">
+		<!--因微信开发工具改版原因，button组件无法在wxss里改变大小，解决方法如下：-->
+		<!--1、删除app.json中的 "style":"v2"-->
+		<!--2、直接在button中设置-->
+		<button class="BtnSearch" style="width:160rpx" bindtap="search">搜索</button>
+	</view>
+</view>
+<block wx:for="{{commodities}}" wx:for-item="item">
+  <view bindtap="onCommdityTap" data-index="{{index}}">
+    <view class="commodity">
+      <view>
+        <image class="commodityImg" src="{{item.img}}"></image>
+      </view>
+      <view class="commodityMessage">
+        <view class="Name">{{item.name}}</view>
+        <view class="Price">{{item.price}}</view>
+        <view class="Number">{{item.number}}人购买</view>
+      </view>
+    </view>
+  </view>
+</block>

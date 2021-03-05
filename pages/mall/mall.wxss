@@ -1,0 +1,67 @@
+/* pages/mall/mall.wxss */
+.top{                /*顶部模块*/
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.Sinput{             /*输入框容器*/
+height:30px;
+width:600rpx;
+margin:20rpx 0 10rpx 20rpx;
+}
+.SBtn{               /*按钮容器*/
+  height:30px;
+  width: 170rpx;
+  margin:20rpx 20rpx 10rpx 15rpx;
+} 
+.inputSearch{        /*输入框*/
+  height: 30px;
+  width: 500rpx;
+  line-height: 15px;   /*使文字水平居中*/
+  border:0.5px solid #669966c4;
+  border-radius: 30rpx;
+}
+.BtnSearch{           /*按钮*/
+  size:mini;
+  height:30px;
+  background-color: #669966c4;
+  color:#fff;
+  font-size: 28rpx;
+  font-weight: bold;
+  line-height: 15px;   /*使文字水平居中*/
+}
+
+.commodity{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid #1b747b;
+  border-radius: 10px;
+}
+.commodityImg{
+  height: 180rpx;
+  width: 180rpx;
+  margin:5px 5px 5px 5px
+}
+.commodityMessage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Name{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.Price{
+  font-weight: 600;
+  margin-top: 5px;
+  color: #ee4d1ce5;
+}
+.Number{
+  font-size: 12px;
+  margin-top: 15px;
+  color:#a3a2a2;
+}

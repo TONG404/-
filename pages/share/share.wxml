@@ -1,0 +1,28 @@
+<!--pages/share/share.wxml-->
+<block wx:for="{{communication}}" wx:for-item="item">
+  <view bindtap="oncommunicationTap" data-index="{{index}}">
+    <view class="comment">
+      <view class="author">
+        <image class="avatar" src="{{item.img}}"></image>
+        <view class="authorName">{{item.authorName}}</view>
+        <view class="time">{{time}}</view>
+      </view>
+      <view class="content">{{item.content}}</view>
+      <view class="interaction ">
+        <image class="icon" src="../../image/点赞.png"></image>
+        <image class="icon" src="../../image/收藏.png"></image>
+      </view>
+    </view>
+  </view>
+</block>
+<view class="top">
+	<view class="Sinput">
+		<input class="inputSearch" name="searchform" placeholder="  来分享吧~" bindinput="search_key"></input>
+	</view>
+	<view class="SBtn">
+		<!--因微信开发工具改版原因，button组件无法在wxss里改变大小，解决方法如下：-->
+		<!--1、删除app.json中的 "style":"v2"-->
+		<!--2、直接在button中设置-->
+		<button class="BtnSearch" style="width:160rpx" bindtap="search">发表</button>
+	</view>
+</view>

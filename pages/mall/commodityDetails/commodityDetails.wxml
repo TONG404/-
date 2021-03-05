@@ -1,0 +1,33 @@
+<!--pages/mall/commodityDetails/commodityDetails.wxml-->
+<view class="all">
+  <view class="commodity">
+    <image class="commodityImg" src="../../../image/c4.png"></image>
+    <view class="commodityMessage">
+      <view class="Name">商品1</view>
+      <view class="Price">100.00</view>
+      <view class="commodity_bottom">
+        <view class="Number">15人购买</view>
+        <image class="icon" src="../../../image/收藏.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="buttonsArea">
+    <view class="button1">问答</view>
+    <view class="button2">评价</view>
+    <view class="button2">商品详情</view>
+  </view>
+  <view class="content">
+    <block wx:for="{{commend}}" wx:for-item="item">
+  <view bindtap="oncommunicationTap" data-index="{{index}}">
+    <view class="comment">
+      <view class="author">
+        <image class="avatar" src="{{item.img}}"></image>
+        <view class="authorName">{{item.authorName}}</view>
+        <view class="time">{{time}}</view>
+      </view>
+      <view class="content">{{item.content}}</view>
+    </view>
+  </view>
+</block>
+  </view>
+</view>

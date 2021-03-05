@@ -1,0 +1,92 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+.swiperContainer{
+  width:100%;
+  height:500rpx;
+  margin-top: 10px;
+}
+swiper{
+  width:750rpx;
+  height:530rpx;
+}
+.swiperImg{
+  width:750rpx;
+}
+.Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.TitleContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:500rpx;
+  background-color: #669966c4;
+  border-radius: 30px;
+}
+.Title{
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+.activities{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:680rpx;
+}
+.activity{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  margin-top: 15px;
+  border-radius: 5px;
+  border:1px solid #e6e6e6;
+}
+.activityTitle{
+  margin:10rpx 0 0 20rpx;
+  font-size: 20px;
+  font-weight: bold;
+}
+.avtivityContent{
+  margin:20rpx 0 10rpx 20rpx;
+}
+.commodities{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.commoditiesLine{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.commodity{
+  width:300rpx;
+  height:450rpx;
+  display: flex;
+  flex-direction: column;
+  border:1px solid #e6e6e6;
+  border-radius: 10px;
+}
+.commodityImg{
+  height:300rpx;
+  width:auto;
+}
+.commodityName{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.commodityPrice{
+  font-weight: 600;
+  margin-top: 5px;
+  color: #ee4d1ce5;
+}

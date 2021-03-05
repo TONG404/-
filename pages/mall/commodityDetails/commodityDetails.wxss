@@ -1,0 +1,108 @@
+/* pages/mall/commodityDetails/commodityDetails.wxss */
+.commodity{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid #1b747b;
+  border-radius: 10px;
+}
+.commodityImg{
+  height: 700rpx;
+  width: 700rpx;
+  margin:5px 5px 5px 5px
+}
+.commodityMessage{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 100%;
+}
+.Name{
+  font-size: 15px;
+  margin-top: 10px;
+}
+.Price{
+  font-weight: 600;
+  margin-top: 5px;
+  color: #ee4d1ce5;
+}
+.Number{
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color:#a3a2a2;
+}
+.commodity_bottom{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.icon{
+  height: 60rpx;
+  width: 60rpx;
+  position: absolute;
+  right: 20px;
+  margin-top:5px;
+}
+.buttonsArea{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.button1{
+  width: 250rpx;
+  height:30px;
+  font-size: 32rpx;
+  color: #ee2a1c;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+}
+.button2{
+  width: 250rpx;
+  height:30px;
+  font-size: 28rpx;
+  color: #a3a2a2;
+  text-align: center;
+  line-height: 30px;
+}
+
+.comment{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid #1b747b;
+  border-radius: 10px;
+}
+.author{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.avatar{
+  border-radius: 50%;
+  height: 60rpx;
+  width: 60rpx;
+  margin-left: 10px;
+}
+.authorName{
+  font-size: 32rpx;
+  margin-left: 15px;
+}
+.time{
+  font-size: 28rpx;
+  color: #8a8a8a;
+}
+.content{
+  margin:10px 10px 0 10px;
+  font-size: 30rpx;
+  color:#575555
+}
+.interaction{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}

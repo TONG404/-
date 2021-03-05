@@ -1,0 +1,29 @@
+<!--pages/user/user.wxml-->
+<view class="page">
+  <view class="userContainer">
+    <view class="photo">
+      <open-data class='userInfo' type="userAvatarUrl" bindgetuserinfo="onGotUserInfo"></open-data>
+    </view>
+    <view class="userName">
+        <open-data class='store_address' type="userNickName" lang="zh_CN"></open-data>
+    </view>
+  </view>
+
+  <view class="methodContainer">
+    <view class="method">
+      <view class="methodText">我的收藏</view>
+    </view>
+    <view class="method">
+      <view class="methodText">我的消息</view>
+    </view>
+    <view class="method">
+      <view class="methodText">我的活动</view>
+    </view>
+    <view class="method">
+      <view class="methodText">我的评论</view>
+    </view>
+    <view class="method">
+      <view class="methodText">关于我们</view>
+    </view>
+  </view>
+</view>
